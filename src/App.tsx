@@ -1,5 +1,6 @@
 import ScrollTriggeredBox from "./component/FixedBox";
 import styled from "styled-components";
+import Roadmap from "./component/Roadmap";
 
 const PageSection = styled.div<{ bgColor: string }>`
   height: 100vh;
@@ -22,7 +23,7 @@ function App() {
           Page {index + 1}
         </PageSection>
       ))}
-      {/* <Roadmap /> */}
+      <Roadmap />
     </div>
   );
 }
